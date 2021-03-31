@@ -1,0 +1,51 @@
+nav img{
+max-width: 64px;
+max-height: 46px;
+object-fit: scale-down;/*هاي لتدوير الصورة او الشعار*/
+border-radius: 50%;
+
+
+}
+main{
+    text-align: center;
+}
+#code{
+    width:98%;
+   min-height: 280px;
+   border-radius: 20px;
+   border: 1px solid royalblue;
+}
+#boutons{
+    display: flex;
+    justify-content: space-evenly;/*لتباعد قروب به مجموعة من الازرار بشكل مناسب*/
+
+}
+#boutons button{
+width: 47%;
+border-radius: 12px;
+border: 0px;
+padding: 12px;
+
+}
+#remove{
+    background-color: rgba(7, 7, 7, 0.747);
+color: rgb(247, 242, 242);
+}
+#play{
+    background-color: royalblue;
+    color: #fff;
+
+}
+#result{
+    padding: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.74);
+    margin: 10px 0px;
+    font-weight: bold;
+} 
+#results{
+    width:98%;
+    min-height: 280px;
+    border-radius: 20px;
+    border: 1px solid royalblue;
+    text-align: center;
+}
